@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        let call=()=>{
-            let w=document.getElementById('in').value;
-            if ( parseInt(w) > 15 )
-            alert("Baggage weight exceeded")
-            else
-            alert('OK')
-        }
-
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    Please enter the Baggage Weight :
-    <br>
+    Enter the baggage weight <br>
     <input type="text" name="in" id="in">
-    <input type="button" onclick="call()" value="Submit">
+    <button type="button" onclick="call()">Submit</button>
 </body>
 </html>
